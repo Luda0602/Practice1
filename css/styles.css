@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Noto Sans", sans-serif;
+    background: #ffffff;
+    font-size: 14px;
+    line-height: 19px;
+    color: #303030; 
+    margin: 0;
+    padding: 0;
+
+}
+.wrapper {
+    max-width: 1230px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+.logo {
+   height: 51px;
+}
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
