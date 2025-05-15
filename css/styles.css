@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+   
 }
 body {
     font-family: "Noto Sans", sans-serif;
@@ -114,4 +115,70 @@ button {
 .promo__social-link:hover {
     transition: transform .3s;
     transform: scale(1.1);
+}
+.services_row {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.services_coll {
+    width: 46%;
+}
+.services_img {
+    width: 100%;
+    height: 100%;
+}
+.services_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.services_caption {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #303030;
+    margin-bottom: 15px;
+}
+
+.services_item + .services_item {
+    margin-top: 50px;
+}
+
+
+.info {
+    background-image: url(../img/bg-info.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 128px;
+    padding-bottom: 144px;
+}
+.info_title {
+    text-align: center;
+    font-weight: 400;
+}
+.steps_row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  
+}
+.steps_coll {
+    width: 46%;
+}
+.steps_title {
+    max-width: 250px;
+    margin-bottom: 27px;
+}
+.steps_img {
+    width: 100%;
+    height: 100%;
+}
+.steps_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
 }
