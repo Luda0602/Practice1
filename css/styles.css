@@ -41,6 +41,9 @@ button {
     line-height: 33px;
     color: #868585;
 }
+.title_white {
+    color: #fff;
+}
 .wrapper {
     max-width: 1230px;
     padding: 0px 15px;
@@ -163,15 +166,27 @@ button {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
-  
-}
+    }
 .steps_coll {
     width: 46%;
 }
 .steps_title {
     max-width: 250px;
     margin-bottom: 27px;
+}
+.steps_items + .steps_items {
+margin-top: 30px;
+}
+.steps_number {
+    color: #868585;
+    margin-bottom: 11px;
+}
+.steps_caption {
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+color: #303030;
+margin-bottom: 2px;
 }
 .steps_img {
     width: 100%;
@@ -182,3 +197,20 @@ button {
     height: 100%;
     object-fit: cover; 
 }
+    .container {
+        background-image: url(../img/bg-footer.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 65px;
+        padding-bottom: 65px;
+        color: #ffffff;
+    }
+    .container_body {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .container_coll {
+        width: 46%;
+    }
